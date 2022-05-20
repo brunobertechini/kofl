@@ -1,0 +1,14 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>io.kofl</groupId>
+        <artifactId>framework</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>application.contracts</artifactId>
+
+    <name>Kofl Application Contracts</name>
+
+  </project>

@@ -1,0 +1,16 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+   
+    <parent>
+        <groupId>io.kofl</groupId>
+        <artifactId>framework</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+        <relativePath>../../src/pom.xml</relativePath>
+    </parent>
+   
+    <groupId>io.kofl.samples</groupId>
+    <artifactId>web</artifactId>
+
+    <name>Kofl Samples - Web App</name>
+
+  </project>
