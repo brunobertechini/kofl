@@ -17,8 +17,6 @@
 	<description>Kofl Web Api (Rest) Sample</description>
 
 	<properties>
-		<java.version>17</java.version>
-		<kotlin.version>1.7.0</kotlin.version>
 	</properties>
 	
 	<dependencies>
