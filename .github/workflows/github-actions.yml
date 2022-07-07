@@ -1,5 +1,12 @@
-name: kofl
-on: [push]
+name: Kofl
+on:
+  push:
+    branches: 
+      - master
+      - feature/*
+  pull_request:
+    branches: 
+      - master
 jobs:
   build:
     runs-on: ubuntu-latest
