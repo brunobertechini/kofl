@@ -19,6 +19,7 @@
         <java.version>17</java.version>
         <kotlin.version>1.7.0</kotlin.version>
         <spring.boot.version>2.7.1</spring.boot.version>
+        <jackson.fasterxml.version>2.13.3</jackson.fasterxml.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -34,6 +35,11 @@
             <artifactId>kotlin-stdlib-jdk8</artifactId>
             <version>${kotlin.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.module</groupId>
+            <artifactId>jackson-module-kotlin</artifactId>
+            <version>${jackson.fasterxml.version}</version>
+        </dependency>
         <!-- /Kotlin -->
 
         <!-- Spring Boot -->
@@ -45,7 +51,7 @@
             <optional>true</optional>
         </dependency>
         <!-- /Spring Boot -->
-        
+
     </dependencies>
 
 </project>
