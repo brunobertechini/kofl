@@ -1,0 +1,20 @@
+<project>
+    <modelVersion>4.0.0</modelVersion>
+   
+    <parent>
+        <groupId>io.kofl</groupId>
+        <artifactId>parent</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+   
+    <packaging>pom</packaging>
+    
+    <artifactId>samples</artifactId>
+    <name>Kofl Samples</name>
+
+    <modules>
+        <module>console</module>
+        <module>web</module>
+    </modules>
+
+  </project>

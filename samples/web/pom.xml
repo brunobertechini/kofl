@@ -3,9 +3,8 @@
    
     <parent>
         <groupId>io.kofl</groupId>
-        <artifactId>framework</artifactId>
+        <artifactId>samples</artifactId>
         <version>1.0.0-SNAPSHOT</version>
-        <relativePath>../../src/pom.xml</relativePath>
     </parent>
    
     <groupId>io.kofl.samples</groupId>
